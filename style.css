@@ -340,8 +340,8 @@ section {
 }
 
 .hero-image-frame {
-    width: 260px;
-    height: 260px;
+    width: 280px;
+    height: 280px;
     margin: 0 auto;
     border-radius: 50%;
     position: relative;
@@ -350,13 +350,14 @@ section {
     align-items: center;
     justify-content: center;
     border: 4px solid var(--accent-cyan);
+    background: transparent;
 }
 
 .hero-image-frame img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center top;
+    object-fit: contain;
+    object-position: center center;
     display: block;
     transition: var(--transition-smooth);
 }
@@ -767,7 +768,6 @@ section {
         width: 300px;
         height: 300px;
         border-radius: 50%;
-        align-items: flex-end;
     }
     .glass {
         padding: 40px 20px !important;
@@ -804,7 +804,6 @@ section {
         width: 250px;
         height: 250px;
         border-radius: 50%;
-        align-items: flex-end;
     }
     .portfolio-card img {
         height: 380px !important;
