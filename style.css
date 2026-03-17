@@ -344,7 +344,7 @@ section {
     height: 260px;
     margin: 0 auto;
     background: linear-gradient(135deg, var(--bg-card), var(--accent-teal));
-    border-radius: 30px; /* Modern rounded square for profile */
+    border-radius: 50%;
     position: relative;
     overflow: hidden;
     display: flex;
