@@ -346,9 +346,6 @@ section {
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 4px solid var(--accent-cyan);
     background: transparent;
 }
@@ -356,7 +353,7 @@ section {
 .hero-image-frame img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center center;
     display: block;
     transition: var(--transition-smooth);
