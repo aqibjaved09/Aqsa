@@ -340,11 +340,11 @@ section {
 }
 
 .hero-image-frame {
-    width: 380px;
-    height: 380px;
+    width: 260px;
+    height: 260px;
     margin: 0 auto;
     background: linear-gradient(135deg, var(--bg-card), var(--accent-teal));
-    border-radius: 40px; /* Modern rounded square for profile */
+    border-radius: 30px; /* Modern rounded square for profile */
     position: relative;
     overflow: hidden;
     display: flex;
@@ -357,7 +357,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center; /* Center the face */
+    object-position: top center; /* Focus on face */
     transition: var(--transition-smooth);
 }
 
