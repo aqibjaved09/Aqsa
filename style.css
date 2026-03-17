@@ -256,6 +256,7 @@ body {
     transform: translateY(-10px) scale(1.02);
     background: rgba(45, 0, 80, 0.6);
     z-index: 10;
+    position: relative; /* Ensure it stays above other elements on hover */
 }
 
 .text-secondary {
@@ -354,6 +355,7 @@ section {
     object-fit: cover;
     object-position: top center; /* Ensures face/top of image is visible */
     transition: var(--transition-smooth);
+    border-radius: 50%; /* Force image to be circular within the frame */
 }
 
 .hero-image-frame:hover {
@@ -401,6 +403,24 @@ section {
 
 .portfolio-card:hover img {
     transform: scale(1.08);
+}
+
+.portfolio-category .row {
+    padding-top: 20px; /* Room for hover translateY */
+}
+
+.portfolio-category .row > div {
+    margin-bottom: 2rem; /* Better spacing on mobile */
+}
+
+/* Ensure cards don't clip on hover */
+.portfolio-card {
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio-card:hover {
+    z-index: 10;
 }
 
 .social-circle {
