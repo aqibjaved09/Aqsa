@@ -766,7 +766,7 @@ section {
     .hero-image-frame {
         width: 300px;
         height: 300px;
-        border-radius: 35px;
+        border-radius: 50%;
     }
     .glass {
         padding: 40px 20px !important;
@@ -802,7 +802,7 @@ section {
     .hero-image-frame {
         width: 250px;
         height: 250px;
-        border-radius: 30px;
+        border-radius: 50%;
     }
     .portfolio-card img {
         height: 380px !important;
