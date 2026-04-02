@@ -329,8 +329,19 @@ section {
 
 .hero-title {
     font-family: var(--font-heading);
-    line-height: 1.2;
+    line-height: 1.3;
     margin-top: 20px;
+    font-size: 3.5rem;
+}
+
+.hero .h4 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.hero .lead {
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 .subtitle {
@@ -763,7 +774,13 @@ section {
         font-size: 1.2rem;
     }
     .hero-title {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
+    }
+    .hero .h4 {
+        font-size: 0.85rem;
+    }
+    .hero .lead {
+        font-size: 1rem;
     }
     .hero-image-frame {
         width: 300px;
@@ -786,7 +803,13 @@ section {
 
 @media (max-width: 576px) {
     .hero-title {
-        font-size: 2.2rem;
+        font-size: 2rem;
+    }
+    .hero .h4 {
+        font-size: 0.75rem;
+    }
+    .hero .lead {
+        font-size: 0.95rem;
     }
     .subtitle {
         font-size: 0.8rem;
@@ -819,3 +842,22 @@ section {
     }
 }
 
+
+
+/* Portfolio Section Title */
+.portfolio-section .display-6 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+    .portfolio-section .display-6 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-section .display-6 {
+        font-size: 1.5rem;
+    }
+}
