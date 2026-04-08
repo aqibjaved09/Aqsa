@@ -321,6 +321,22 @@ body {
     border-color: #fff;
 }
 
+.btn-whatsapp {
+    background-color: var(--accent-cyan);
+    border: none;
+    color: var(--bg-dark) !important;
+    transition: var(--transition-smooth);
+    display: inline-block;
+}
+
+.btn-whatsapp:hover {
+    background-color: #fdf5ff !important;
+    color: var(--bg-dark) !important;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.6), 0 0 20px var(--accent-cyan);
+    transform: scale(1.05) translateY(-3px);
+    border: none !important;
+}
+
 /* Sections */
 section {
     min-height: 100vh;
